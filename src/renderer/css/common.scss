@@ -1,0 +1,22 @@
+.common-table{
+  width:100%;
+  text-align: center;
+  border:1px solid #ebeef5;
+  font-size: 14px;
+  thead th{
+    font-weight:100;
+    padding: 12px 0;
+    min-width: 0;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+  }
+  tbody tr td{
+    padding: 12px 0;
+    min-width: 0;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    word-break:break-word;
+  }
+}
